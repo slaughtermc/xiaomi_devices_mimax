@@ -1,0 +1,30 @@
+mbol:   variable switch_bar_on
+  location: class string
+device/xiaomi/msm8956-common/doze/src/org/lineageos/settings/doze/DozeSettingsFragment.java:102: error: cannot find symbol
+                R.string.switch_bar_on : R.string.switch_bar_off));
+                                                 ^
+  symbol:   variable switch_bar_off
+  location: class string
+device/xiaomi/msm8956-common/doze/src/org/lineageos/settings/doze/DozeSettingsFragment.java:123: error: cannot find symbol
+        mTextView.setText(getString(isChecked ? R.string.switch_bar_on : R.string.switch_bar_off));
+                                                        ^
+  symbol:   variable switch_bar_on
+  location: class string
+device/xiaomi/msm8956-common/doze/src/org/lineageos/settings/doze/DozeSettingsFragment.java:123: error: cannot find symbol
+        mTextView.setText(getString(isChecked ? R.string.switch_bar_on : R.string.switch_bar_off));
+                                                                                 ^
+  symbol:   variable switch_bar_off
+  location: class string
+device/xiaomi/msm8956-common/doze/src/org/lineageos/settings/doze/DozeSettingsFragment.java:145: error: cannot find symbol
+                    .setNegativeButton(R.string.dialog_ok, (dialog, which) -> dialog.cancel())
+                                               ^
+  symbol:   variable dialog_ok
+  location: class string
+device/xiaomi/msm8956-common/doze/src/org/lineageos/settings/doze/DozeSettingsFragment.java:144: error: cannot find symbol
+                    .setMessage(R.string.doze_settings_help_text)
+                                        ^
+  symbol:   variable doze_settings_help_text
+  location: class string
+device/xiaomi/msm8956-common/doze/src/org/lineageos/settings/doze/DozeSettingsFragment.java:143: error: cannot find symbol
+                    .setTitle(R.string.doze_settings_help_title)
+                                      ^
