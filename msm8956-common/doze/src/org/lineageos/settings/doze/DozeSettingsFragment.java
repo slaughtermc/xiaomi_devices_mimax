@@ -98,8 +98,8 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         boolean dozeEnabled = Utils.isDozeEnabled(getActivity());
 
         mTextView = view.findViewById(R.id.switch_text);
-        mTextView.setText(getString(dozeEnabled ?
-                R.string.switch_bar_on : R.string.switch_bar_off));
+//        mTextView.setText(getString(dozeEnabled ?
+//                R.string.switch_bar_on : R.string.switch_bar_off));
 
         View switchBar = view.findViewById(R.id.switch_bar);
         Switch switchWidget = switchBar.findViewById(android.R.id.switch_widget);
@@ -120,7 +120,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         Utils.enableDoze(getActivity(), isChecked);
         Utils.checkDozeService(getActivity());
 
-        mTextView.setText(getString(isChecked ? R.string.switch_bar_on : R.string.switch_bar_off));
+//        mTextView.setText(getString(isChecked ? R.string.switch_bar_on : R.string.switch_bar_off));
 
         mPickUpPreference.setEnabled(isChecked);
         mHandwavePreference.setEnabled(isChecked);
@@ -140,9 +140,9 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.doze_settings_help_title)
-                    .setMessage(R.string.doze_settings_help_text)
-                    .setNegativeButton(R.string.dialog_ok, (dialog, which) -> dialog.cancel())
+//                    .setTitle(R.string.doze_settings_help_title)
+//                    .setMessage(R.string.doze_settings_help_text)
+//                    .setNegativeButton(R.string.dialog_ok, (dialog, which) -> dialog.cancel())
                     .create();
         }
 

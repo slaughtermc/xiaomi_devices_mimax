@@ -41,3 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hydrogen-user 6.0.1 MMB29M V8.2.3.0.MBCCNDL release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/hydrogen/hydrogen:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Pranav Trivedi (pranavaryans)"
+
+BOOTLEGGERS_BUILD_TYPE="Shishufied"
